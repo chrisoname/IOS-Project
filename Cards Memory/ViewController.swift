@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 
     }
     @IBOutlet var collectionOfCards: [UIButton]!
-    
+    //testing github source control
     
     func flipCard(withEmoji emoji: String, on button: UIButton ){
         if button.currentTitle == emoji{
